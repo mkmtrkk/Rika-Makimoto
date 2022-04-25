@@ -1,0 +1,145 @@
+.mainpic{
+   
+    background-image: url(./img/iOS\ の画像.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.header{
+    padding: 10px 30px 0 1000px;
+}
+.header ul{
+    display: flex;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.header li{
+    color: white;
+    padding-left: 50px;
+}
+
+.about-wrap{
+    margin: 70px;
+}
+.about{
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(21, 91, 37);
+    padding-left: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container img{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    clip-path: circle(50% at 50% 50%);
+    margin: 50px;
+}
+
+.container ul{
+    font-size: 20px;
+    padding: 200px 0 40px 0;
+}
+
+.container ul h2{
+    font-size: 30px;
+}
+
+.memory-wrap{
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+}    
+
+.memory{
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(21, 91, 37);
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+
+.container2 img{
+    width: 24%;
+}
+
+.container2{
+    margin-top: 20px;
+    clip-path: polygon(3% 16%, 7% 5%, 18% 1%, 79% 1%, 93% 6%, 98% 16%, 98% 85%, 94% 96%, 83% 98%, 16% 98%, 7% 95%, 2% 85%);
+}
+.recomend-wrap{
+    margin: 70px;
+}
+.recomend{
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(21, 91, 37);
+    padding-left: 100px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.box img{
+    width: 300px;
+    height: 300px;
+}
+
+footer{
+    background-color: rgb(121, 176, 201);
+    padding: 20px 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 780px) {
+    .container img{
+        text-align: center;
+    }
+    .about, .memory, .recomend{
+        font-size: 45px;
+        padding-left: initial;
+        text-align: center;
+        margin: 20px 0 20px;
+    }
+    .about-wrap, .memory-wrap, .recomend-wrap{
+        margin: auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .container img{
+        margin: auto;
+        height: auto;
+    }
+    .container ul{
+       padding: initial;
+       margin-bottom: 20px;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+    }
+    .container2 img{
+        width: 100%;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+
+}
